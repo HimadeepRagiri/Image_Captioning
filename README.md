@@ -43,6 +43,7 @@ image_captioning/
 ├── train.py            # Training loop
 ├── main.py            # Main execution file
 ├── requirements.txt    # Python dependencies
+├── LICENSE            # MIT License
 └── README.md          # Project documentation
 ```
 
