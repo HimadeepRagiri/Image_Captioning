@@ -14,7 +14,7 @@ An implementation of image captioning using CNN-LSTM architecture with pretraine
 - [Training](#training)
 - [Results](#results)
 - [License](#license)
-- 
+
 ## Project Overview
 This project implements an image captioning system that combines a CNN (ResNet18) for image feature extraction with an LSTM for caption generation. The model is trained on the Flickr8k dataset and uses pretrained GloVe embeddings for word representations.
 
