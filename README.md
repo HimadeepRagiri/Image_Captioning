@@ -13,7 +13,8 @@ An implementation of image captioning using CNN-LSTM architecture with pretraine
 - [Model Architecture](#model-architecture)
 - [Training](#training)
 - [Results](#results)
-
+- [License](#license)
+- 
 ## Project Overview
 This project implements an image captioning system that combines a CNN (ResNet18) for image feature extraction with an LSTM for caption generation. The model is trained on the Flickr8k dataset and uses pretrained GloVe embeddings for word representations.
 
@@ -54,11 +55,8 @@ image_captioning/
 ## Installation
 1. Clone the repository:
 ```bash
-git clone --no-checkout https://github.com/HimadeepRagiri/ML-and-DL-Projects.git
-cd ML-and-DL-Projects
-git sparse-checkout init --cone
-git sparse-checkout set NLP_Projects/image_captioning
-cd NLP_Projects/image_captioning
+git clone https://github.com/HimadeepRagiri/Image_Captioning.git
+cd Image_Captioning
 ```
 
 2. Create and activate a virtual environment (optional but recommended):
@@ -132,4 +130,11 @@ For optimal training results, it is recommended to:
 - Monitor validation loss to prevent overfitting
 
 ---
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
 For questions or issues, please open an issue in the GitHub repository.
